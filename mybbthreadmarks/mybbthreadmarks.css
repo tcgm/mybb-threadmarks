@@ -1,0 +1,67 @@
+#mybbthreadmarks {
+	padding: 10px;
+	border-bottom: 1px solid #00ff1c50;
+}
+
+#mybbthreadmarks #mybbthreadmarks_head {
+	padding: 8px 10px;
+	background: #377f3f85;
+	border: 1px solid #00ff1c50;
+	border-radius: 5px 5px 0 0;
+	font-weight: 700;
+}
+
+#mybbthreadmarks .mybbthreadmarks_bit {
+	padding: 8px 10px;
+	border: 1px solid #00ff1c50;
+	border-top: none;
+}
+
+#mybbthreadmarks .mybbthreadmarks_bit:nth-child(odd) {
+	background: transparent;
+}
+
+#mybbthreadmarks .mybbthreadmarks_bit:nth-child(even) {
+	background: transparent;
+}
+
+#mybbthreadmarks .mybbthreadmarks_bit:last-child {
+	border-radius: 0 0 5px 5px;
+}
+
+#mybbthreadmarks .mybbthreadmarks_action {
+	float: right;
+}
+
+#mybbthreadmarks .mybbthreadmarks_action a:hover {
+	text-decoration: none;
+}
+
+.postbit_buttons a.postbit_threadmark span {
+	/*background-image: url(images/pin--plus.png);*/
+    content:"Threadmark";
+}
+
+.postbit_buttons a.postbit_unthreadmark span {
+	/*background-image: url(images/pin--minus.png);*/
+    content:"Remove Threadmark";
+}
+
+.mybbthreadmarks_nav {
+	height:2em;
+}
+
+.mybbthreadmarks_nav .button:link,
+.mybbthreadmarks_nav .button:visited,
+.mybbthreadmarks_nav .button:active {
+ margin:2px;
+ border-radius:2px;
+ padding:11px 15px;
+ border:none;
+ text-decoration:none
+}
+
+.mybbthreadmarks_nav .button:hover {
+ color:#e5e5e5;
+ text-decoration:none
+}
